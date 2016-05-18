@@ -1,0 +1,7 @@
+D:\VSProjects\SpeechTimer\SpeechTimer\bin\Debug\SpeechTimer.exe
+D:\VSProjects\SpeechTimer\SpeechTimer\bin\Debug\SpeechTimer.pdb
+D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.csprojResolveAssemblyReference.cache
+D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.Properties.Resources.resources
+D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.csproj.GenerateResource.Cache
+D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.exe
+D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.pdb
