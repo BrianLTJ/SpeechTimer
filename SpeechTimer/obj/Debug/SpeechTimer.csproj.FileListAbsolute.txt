@@ -7,3 +7,4 @@ D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.exe
 D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.pdb
 D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.Form1.resources
 D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.FormShow.resources
+D:\VSProjects\SpeechTimer\SpeechTimer\obj\Debug\SpeechTimer.FormStage.resources

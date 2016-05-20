@@ -28,69 +28,75 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelMainTitle = new System.Windows.Forms.Label();
+            this.labelStage = new System.Windows.Forms.Label();
+            this.labelTime = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // labelMainTitle
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.labelMainTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(0, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(288, 33);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "主标题";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelMainTitle.BackColor = System.Drawing.Color.Transparent;
+            this.labelMainTitle.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold);
+            this.labelMainTitle.Location = new System.Drawing.Point(0, 3);
+            this.labelMainTitle.Name = "labelMainTitle";
+            this.labelMainTitle.Size = new System.Drawing.Size(334, 33);
+            this.labelMainTitle.TabIndex = 0;
+            this.labelMainTitle.Text = "主标题";
+            this.labelMainTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // labelStage
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.labelStage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.Font = new System.Drawing.Font("微软雅黑", 13F);
-            this.label2.Location = new System.Drawing.Point(0, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(288, 35);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "环节";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelStage.BackColor = System.Drawing.Color.Transparent;
+            this.labelStage.Font = new System.Drawing.Font("微软雅黑", 16F);
+            this.labelStage.Location = new System.Drawing.Point(1, 36);
+            this.labelStage.Name = "labelStage";
+            this.labelStage.Size = new System.Drawing.Size(334, 38);
+            this.labelStage.TabIndex = 1;
+            this.labelStage.Text = "环节";
+            this.labelStage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // labelTime
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.labelTime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 42F);
-            this.label3.Location = new System.Drawing.Point(0, 66);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(288, 87);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "-00:00:00";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelTime.BackColor = System.Drawing.Color.Transparent;
+            this.labelTime.Font = new System.Drawing.Font("微软雅黑", 50F);
+            this.labelTime.Location = new System.Drawing.Point(1, 64);
+            this.labelTime.Name = "labelTime";
+            this.labelTime.Size = new System.Drawing.Size(334, 102);
+            this.labelTime.TabIndex = 2;
+            this.labelTime.Text = "-00:00:00";
+            this.labelTime.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // FormShow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(289, 151);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(335, 163);
+            this.Controls.Add(this.labelStage);
+            this.Controls.Add(this.labelMainTitle);
+            this.Controls.Add(this.labelTime);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(305, 190);
+            this.MinimumSize = new System.Drawing.Size(270, 150);
             this.Name = "FormShow";
             this.Text = "SpeechTimer - 计时";
+            this.Load += new System.EventHandler(this.FormShow_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelMainTitle;
+        private System.Windows.Forms.Label labelStage;
+        private System.Windows.Forms.Label labelTime;
     }
 }
